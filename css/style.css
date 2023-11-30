@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: #2F2F2F;
+    width: 100%;
+    padding: 1.5rem 1rem;
+}
+.navbar a {
+    color: #F7F7F7;
+    text-decoration: none;
+}
+.navbar nav {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+}
+.navbar nav ul {
+    display: flex;
+    justify-content: space-center;
+    align-items: flex-start;
+    list-style: none;
+}
+.navbar nav ul a{
+    margin: 0 15px;
+}
+.main-inf {
+    background-color: #A7A7A7 ;    
+}
+.main-inf .text {
+    display: grid;
+    max-width: 1500px;
+    padding: 0.5rem 0.5rem;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+.main-inf h2 {
+    padding: 1rem 0.5rem;
+}
+/* .main-inf .text p {
+    padding: 1.6rem 0.1rem;
+    font-size: 25px;
+} */
+.main-inf .I {
+    font-size: 17px;
+    margin-right: 1%;
+}
+.main-inf .II {
+    font-size: 17px;
+    margin-right: 1%;
+    margin-bottom: 20%;
+}
+.main-inf .name {
+    font-size: 35px;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+.main-inf img {
+    width: 220px;
+    height: 225px;
+    margin-top: 1%;
+    margin-right: 1%;
+    border-radius: 50%;
+}
+#edu h2 {
+    padding: 1rem 0.5rem;
+}
+#edu {
+    padding-bottom: 15%;
+    background-color: #8A8A8A;
+}
+.main-edu h3 {
+    padding: 0rem 0.5rem;
+}
+.main-edu .educ ul {
+    padding-inline: 2rem 0rem;
+}
+.main-edu .educ ul li {
+
+    font-size: 17px;
+    padding: 1rem 0rem;
+}
+.main-edu .skill h4 {
+    padding: 0.5rem 0.5rem;
+    color: rgb(165, 0, 0);
+    font-size: 17px;
+}
+#contact {
+    background-color: #A6A6A6;
+    padding-bottom: 4% ;
+}
+#contact h2 {
+    padding: 1rem 0.5rem;
+}
+.contact-us img {
+    margin-top: 1%;
+    border-radius: 50%;
+    width: 85px;
+    margin-right: 10%;
+}
+#footer {
+    background-color: rgb(22, 22, 22);
+    padding: 1rem 0rem;
+
+}
+#footer p {
+    color: rgb(230, 230, 230);
+    text-align: center;
+}
